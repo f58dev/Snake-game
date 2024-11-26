@@ -51,7 +51,7 @@ function moveSnake() {
         score++;
         scoreDisplay.textContent = score;
         food = { x: Math.floor(Math.random() * 20) * 20, y: Math.floor(Math.random() * 20) * 20 };
-        speed = Math.max(50, speed - 2); // Increase speed
+        speed = Math.max(50, speed - 2);
     } else {
         snake.pop();
     }
