@@ -1,0 +1,141 @@
+/* General styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #121212;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.page {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  text-align: center;
+  background: #1e1e1e;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Landing page styles */
+#landingPage h1 {
+  font-size: 2.5rem;
+  color: #f39c12;
+  margin-bottom: 20px;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#landingPage button {
+  padding: 12px 24px;
+  margin: 10px;
+  font-size: 1.1rem;
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s, background 0.3s;
+}
+
+#landingPage button:hover {
+  transform: translateY(-3px);
+  background: #c0392b;
+}
+
+/* Instructions page styles */
+#instructionsPage h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #3498db;
+}
+
+#instructionsPage p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #bdc3c7;
+}
+
+#instructionsPage button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  background: #2ecc71;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s, background 0.3s;
+}
+
+#instructionsPage button:hover {
+  transform: translateY(-3px);
+  background: #27ae60;
+}
+
+/* Game container styles */
+#gameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.scoreboard {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #ecf0f1;
+}
+
+.scoreboard span {
+  color: #e74c3c;
+}
+
+#gameCanvas {
+  border: 3px solid #3498db;
+  background: #2c3e50;
+  width: 400px;
+  height: 400px;
+  border-radius: 6px;
+}
+
+/* Game over page styles */
+#gameOver h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #e74c3c;
+}
+
+#gameOver p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #bdc3c7;
+}
+
+#gameOver button {
+  padding: 12px 24px;
+  margin: 10px;
+  font-size: 1rem;
+  background: #8e44ad;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s, background 0.3s;
+}
+
+#gameOver button:hover {
+  transform: translateY(-3px);
+  background: #71368a;
+}
+
+/* Buttons general styles */
+button:active {
+  transform: scale(0.95);
+}
